@@ -1,0 +1,28 @@
+
+<div class="col-sm-12" id="featured">
+  <div class="page-header text-muted">
+    Blog
+  </div>
+</div>
+<%= link_to 'New post', new_post_path %>
+
+<% @posts.reverse.each do |post| %>
+    <div class="row">
+      <div class="col-md-3 col-sm-4">
+        <h3>
+          <%= post.title %>
+        </h3>
+      </div>
+      <div class=" blog-post col-md-9 col-sm-8 col-xs-12">
+        <div class="well">
+          <p>
+            <%= post.text %>
+          </p>
+        </div>
+        <a href="#" class="btn btn-info">Comment</a>
+      </div>
+    </div>
+    <hr>
+    <br/>
+<% end %>
+
