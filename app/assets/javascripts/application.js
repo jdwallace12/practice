@@ -13,4 +13,10 @@
 //= require jquery
 //= require jquery_ujs
 //= require turbolinks
+//= require skrollr
+//= require skrollr.ie
+//= require skrollr.menu
+//= require angular
+//= require angular-animate
+//= require angular-resource
 //= require_tree .

@@ -1,9 +1,25 @@
-// Place all the styles related to the welcome controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
 
 .blog-post {
   padding-top: 25px;
   padding-bottom: 25px;
   line-height: 1.5;
+}
+
+.hero-scroll {
+padding-top: 100px;
+text-align: center;
+padding-bottom: 500px;
+}
+
+.hero-heading h1 {
+  color: #F7F7F7;
+  font-size: 80px;
+  text-shadow: 1px 0px 0px #ccc;
+  font-weight: 300;
+}
+
+.hero-subheading {
+  color: #F7F7F7;
+  font-size: 50px;
+  text-shadow: 1px 0px 0px #ccc;
 }

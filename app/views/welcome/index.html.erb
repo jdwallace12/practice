@@ -1,146 +1,157 @@
-<div class="row">
-  <div class="col-md-4 col-xs-6">
-    <h3>
-      <h1>Welcome To My Practice App</h1>
-    </h3>
-    <p>
-
-    <p>Its super lame</p>
-    </p>
-  </div>
-  <div class="col-md-4 col-xs-6">
-    <h3>
-      <img src="http://johnwallacedesigns.com/wp-content/uploads/2012/08/13361_532886718747_4358424_n.jpg" class="img-responsive" alt="Responsive image">
-    </h3>
-
-    <h3>
-      What Up
-    </h3>
-
-    <p>
-      Content
-    </p>
-  </div>
-  <div class="col-md-4 col-xs-6">
-    <h3>
-      Span 4
-    </h3>
-
-    <p>
-      Content
-
-    <div class="btn-group">
-      <a href="#" class="btn btn-default">Button 1</a>
-      <a href="#" class="btn btn-default">Button 2</a>
-      <a href="#" class="btn btn-default">Button 3</a>
+<div id="skrollr-body">
+  <div class="row">
+    <div class="heading_input col-md-12">
+      <input type="text" placeholder="Type Something Here" ng-model="heading"/>
+      <input type="text" placeholder="And Here" ng-model="caption"/>
+      <input type="text" placeholder="Type Something Here" ng-model="heading2"/>
+      <input type="text" placeholder="And Here" ng-model="caption2"/>
     </div>
-    </p>
+    <div class="hero-scroll col-md-12" data-0="background-color:rgb(0,0,255);" data-center="background-color:rgb(255,0,0);">
+      <div class="hero-heading" data-0="transform:rotate(0deg); position:absolute; right:0%; top:0%; opacity:.6; font-weight:100;" data-top="transform:rotate(360deg);  position:absolute; right:50%; top:70%; opacity:1;font-weight:800;">
+        <h1 data-0="font-weight:800;" data-top="font-weight:100;">{{heading}}</h1>
+      </div>
+      <div class="hero-subheading" data-0="transform:rotate(0deg); position:absolute; left:0%; bottom:0%;opacity:1;" data-top="transform:rotate(180deg);  position:absolute; left:50%; bottom:90%;opacity:.6;">
+        <p data-0="font-weight:100;" data-15="font-weight:300;" data-30="font-weight:800;">{{caption}}</p>
+        </p>
+      </div>
+      <div class="hero-heading" data-0="transform:rotate(0deg); position:absolute; left:0%; top:30%; opacity:.6;" data-top="transform:rotate(360deg);  position:absolute; right:50%; lef top:70%; opacity:1;">
+        <h1 data-0="font-weight:800;" data-top="font-weight:100;">{{heading2}}</h1>
+      </div>
+      <div class="hero-subheading" data-0="transform:rotate(0deg); position:absolute; right:0%; bottom:0%;opacity:1;" data-top="transform:rotate(180deg);  position:absolute; right:50%; bottom:90%;opacity:.6;">
+        <p data-0="font-weight:100;" data-15="font-weight:300;" data-30="font-weight:800;">{{caption2}}</p>
+        </p>
+      </div>
+    </div>
   </div>
-</div>
-<div class="jumbotron">
-  <h1>
-    <%= link_to "My Blog", controller: "posts", class: "btn-lg btn-primary" %>
-  </h1>
+  <!--<div class="row">-->
+    <!--<div class=" hero-info col-md-12">-->
+      <!--<h3>-->
+        <!--Span 12-->
+      <!--</h3>-->
+    <!--</div>-->
+  <!--</div>-->
+  <!--<div class="row">-->
+    <!--<div class="jumbotron">-->
+      <!--<h1>-->
+        <!--<%#= link_to "My Blog", controller: "posts", class: "btn-lg btn-primary" %>-->
+      <!--</h1>-->
 
-  <p>
-    <a href="/posts" class="btn btn-default">blog</a>
-    This is the coolest!
-  </p>
-</div>
+      <!--<p>-->
+        <!--<a href="/posts" class="btn btn-default">blog</a>-->
+        <!--This is the coolest!-->
+      <!--</p>-->
+    <!--</div>-->
 
+  <!--</div>-->
+  <!--<div class="row">-->
+    <!--<div class="col-xs-6 col-sm-3 well">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam lacus nulla,-->
+      <!--sollicitudin vitae augue et, convallis tempus dui. Aenean dapibus ipsum ac malesuada tempor. Praesent sit amet-->
+      <!--pulvinar est, ut euismod urna. In tincidunt nulla at malesuada adipiscing. Nam consequat tortor quis risus-->
+      <!--elementum-->
+      <!--hendrerit. Quisque et blandit risus, et vestibulum quam. Proin eu adipiscing risus. Duis convallis eu metus quis-->
+      <!--aliquet.-->
 
-<div class="row">
-  <div class="col-xs-6 col-sm-3 well">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam lacus nulla,
-    sollicitudin vitae augue et, convallis tempus dui. Aenean dapibus ipsum ac malesuada tempor. Praesent sit amet
-    pulvinar est, ut euismod urna. In tincidunt nulla at malesuada adipiscing. Nam consequat tortor quis risus elementum
-    hendrerit. Quisque et blandit risus, et vestibulum quam. Proin eu adipiscing risus. Duis convallis eu metus quis
-    aliquet.
+      <!--In hac habitasse platea dictumst. Proin malesuada dignissim lorem, viverra vehicula turpis ornare eu. Vivamus-->
+      <!--volutpat turpis elit, sit amet commodo urna scelerisque sed. Morbi quis metus blandit, vestibulum ligula gravida,-->
+      <!--laoreet enim. Donec nulla leo, fringilla eget magna vitae, imperdiet suscipit justo. Quisque lectus risus, luctus-->
+      <!--ut-->
+      <!--justo malesuada, mollis sodales nibh. Suspendisse volutpat neque risus, et ultricies dui lobortis et. Aenean quam-->
+      <!--odio, pharetra sit amet sagittis vitae, convallis auctor ante. Duis ut libero sed dolor fermentum condimentum.-->
+      <!--Aenean eu mollis ligula. Etiam at sem at elit scelerisque dapibus a a urna. Cum sociis natoque penatibus et magnis-->
+      <!--dis parturient montes, nascetur ridiculus mus. Nam tempor rutrum nisi, id venenatis justo dignissim id. Mauris-->
+      <!--euismod, purus non faucibus aliquet, velit libero volutpat mauris, at vestibulum eros ipsum nec nisi. Curabitur-->
+      <!--urna-->
+      <!--libero, pharetra eget commodo eu, condimentum sit amet est. Aenean venenatis mi mi, et lobortis nunc molestie sit-->
+      <!--amet.-->
+    <!--</div>-->
+    <!--<div class="col-xs-6 col-sm-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam lacus nulla,-->
+      <!--sollicitudin vitae augue et, convallis tempus dui. Aenean dapibus ipsum ac malesuada tempor. Praesent sit amet-->
+      <!--pulvinar est, ut euismod urna. In tincidunt nulla at malesuada adipiscing. Nam consequat tortor quis risus-->
+      <!--elementum-->
+      <!--hendrerit. Quisque et blandit risus, et vestibulum quam. Proin eu adipiscing risus. Duis convallis eu metus quis-->
+      <!--aliquet.-->
 
-    In hac habitasse platea dictumst. Proin malesuada dignissim lorem, viverra vehicula turpis ornare eu. Vivamus
-    volutpat turpis elit, sit amet commodo urna scelerisque sed. Morbi quis metus blandit, vestibulum ligula gravida,
-    laoreet enim. Donec nulla leo, fringilla eget magna vitae, imperdiet suscipit justo. Quisque lectus risus, luctus ut
-    justo malesuada, mollis sodales nibh. Suspendisse volutpat neque risus, et ultricies dui lobortis et. Aenean quam
-    odio, pharetra sit amet sagittis vitae, convallis auctor ante. Duis ut libero sed dolor fermentum condimentum.
-    Aenean eu mollis ligula. Etiam at sem at elit scelerisque dapibus a a urna. Cum sociis natoque penatibus et magnis
-    dis parturient montes, nascetur ridiculus mus. Nam tempor rutrum nisi, id venenatis justo dignissim id. Mauris
-    euismod, purus non faucibus aliquet, velit libero volutpat mauris, at vestibulum eros ipsum nec nisi. Curabitur urna
-    libero, pharetra eget commodo eu, condimentum sit amet est. Aenean venenatis mi mi, et lobortis nunc molestie sit
-    amet.
-  </div>
-  <div class="col-xs-6 col-sm-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam lacus nulla,
-    sollicitudin vitae augue et, convallis tempus dui. Aenean dapibus ipsum ac malesuada tempor. Praesent sit amet
-    pulvinar est, ut euismod urna. In tincidunt nulla at malesuada adipiscing. Nam consequat tortor quis risus elementum
-    hendrerit. Quisque et blandit risus, et vestibulum quam. Proin eu adipiscing risus. Duis convallis eu metus quis
-    aliquet.
+    <!--</div>-->
 
-  </div>
+    <!--&lt;!&ndash; Add the extra clearfix for only the required viewport &ndash;&gt;-->
 
-  <!-- Add the extra clearfix for only the required viewport -->
-  <div class="clearfix visible-xs"></div>
+    <!--<div class="col-xs-6 col-sm-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam lacus nulla,-->
+      <!--sollicitudin vitae augue et, convallis tempus dui. Aenean dapibus ipsum ac malesuada tempor. Praesent sit amet-->
+      <!--pulvinar est, ut euismod urna. In tincidunt nulla at malesuada adipiscing. Nam consequat tortor quis risus-->
+      <!--elementum-->
+      <!--hendrerit. Quisque et blandit risus, et vestibulum quam. Proin eu adipiscing risus. Duis convallis eu metus quis-->
+      <!--aliquet.-->
 
-  <div class="col-xs-6 col-sm-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam lacus nulla,
-    sollicitudin vitae augue et, convallis tempus dui. Aenean dapibus ipsum ac malesuada tempor. Praesent sit amet
-    pulvinar est, ut euismod urna. In tincidunt nulla at malesuada adipiscing. Nam consequat tortor quis risus elementum
-    hendrerit. Quisque et blandit risus, et vestibulum quam. Proin eu adipiscing risus. Duis convallis eu metus quis
-    aliquet.
+      <!--In hac habitasse platea dictumst. Proin malesuada dignissim lorem, viverra vehicula turpis ornare eu. Vivamus-->
+      <!--volutpat turpis elit, sit amet commodo urna scelerisque sed. Morbi quis metus blandit, vestibulum ligula gravida,-->
+      <!--laoreet enim. Donec nulla leo, fringilla eget magna vitae, imperdiet suscipit justo. Quisque lectus risus, luctus-->
+      <!--ut-->
+      <!--justo malesuada, mollis sodales nibh. Suspendisse volutpat neque risus, et ultricies dui lobortis et. Aenean quam-->
+      <!--odio, pharetra sit amet sagittis vitae, convallis auctor ante. Duis ut libero sed dolor fermentum condimentum.-->
+      <!--Aenean eu mollis ligula. Etiam at sem at elit scelerisque dapibus a a urna. Cum sociis natoque penatibus et magnis-->
+      <!--dis parturient montes, nascetur ridiculus mus. Nam tempor rutrum nisi, id venenatis justo dignissim id. Mauris-->
+      <!--euismod, purus non faucibus aliquet, velit libero volutpat mauris, at vestibulum eros ipsum nec nisi. Curabitur-->
+      <!--urna-->
+      <!--libero, pharetra eget commodo eu, condimentum sit amet est. Aenean venenatis mi mi, et lobortis nunc molestie sit-->
+      <!--amet.-->
+    <!--</div>-->
+    <!--<div class="col-xs-6 col-sm-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam lacus nulla,-->
+      <!--sollicitudin vitae augue et, convallis tempus dui. Aenean dapibus ipsum ac malesuada tempor. Praesent sit amet-->
+      <!--pulvinar est, ut euismod urna. In tincidunt nulla at malesuada adipiscing. Nam consequat tortor quis risus-->
+      <!--elementum-->
+      <!--hendrerit. Quisque et blandit risus, et vestibulum quam. Proin eu adipiscing risus. Duis convallis eu metus quis-->
+      <!--aliquet.-->
 
-    In hac habitasse platea dictumst. Proin malesuada dignissim lorem, viverra vehicula turpis ornare eu. Vivamus
-    volutpat turpis elit, sit amet commodo urna scelerisque sed. Morbi quis metus blandit, vestibulum ligula gravida,
-    laoreet enim. Donec nulla leo, fringilla eget magna vitae, imperdiet suscipit justo. Quisque lectus risus, luctus ut
-    justo malesuada, mollis sodales nibh. Suspendisse volutpat neque risus, et ultricies dui lobortis et. Aenean quam
-    odio, pharetra sit amet sagittis vitae, convallis auctor ante. Duis ut libero sed dolor fermentum condimentum.
-    Aenean eu mollis ligula. Etiam at sem at elit scelerisque dapibus a a urna. Cum sociis natoque penatibus et magnis
-    dis parturient montes, nascetur ridiculus mus. Nam tempor rutrum nisi, id venenatis justo dignissim id. Mauris
-    euismod, purus non faucibus aliquet, velit libero volutpat mauris, at vestibulum eros ipsum nec nisi. Curabitur urna
-    libero, pharetra eget commodo eu, condimentum sit amet est. Aenean venenatis mi mi, et lobortis nunc molestie sit
-    amet.
-  </div>
-  <div class="col-xs-6 col-sm-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam lacus nulla,
-    sollicitudin vitae augue et, convallis tempus dui. Aenean dapibus ipsum ac malesuada tempor. Praesent sit amet
-    pulvinar est, ut euismod urna. In tincidunt nulla at malesuada adipiscing. Nam consequat tortor quis risus elementum
-    hendrerit. Quisque et blandit risus, et vestibulum quam. Proin eu adipiscing risus. Duis convallis eu metus quis
-    aliquet.
+      <!--In hac habitasse platea dictumst. Proin malesuada dignissim lorem, viverra vehicula turpis ornare eu. Vivamus-->
+      <!--volutpat turpis elit, sit amet commodo urna scelerisque sed. Morbi quis metus blandit, vestibulum ligula gravida,-->
+      <!--laoreet enim. Donec nulla leo, fringilla eget magna vitae, imperdiet suscipit justo. Quisque lectus risus, luctus-->
+      <!--ut-->
+      <!--justo malesuada, mollis sodales nibh. Suspendisse volutpat neque risus, et ultricies dui lobortis et. Aenean quam-->
+      <!--odio, pharetra sit amet sagittis vitae, convallis auctor ante. Duis ut libero sed dolor fermentum condimentum.-->
+      <!--Aenean eu mollis ligula. Etiam at sem at elit scelerisque dapibus a a urna. Cum sociis natoque penatibus et magnis-->
+      <!--dis parturient montes, nascetur ridiculus mus. Nam tempor rutrum nisi, id venenatis justo dignissim id. Mauris-->
+      <!--euismod, purus non faucibus aliquet, velit libero volutpat mauris, at vestibulum eros ipsum nec nisi. Curabitur-->
+      <!--urna-->
+      <!--libero, pharetra eget commodo eu, condimentum sit amet est. Aenean venenatis mi mi, et lobortis nunc molestie sit-->
+      <!--amet.-->
+    <!--</div>-->
+  <!--</div>-->
 
-    In hac habitasse platea dictumst. Proin malesuada dignissim lorem, viverra vehicula turpis ornare eu. Vivamus
-    volutpat turpis elit, sit amet commodo urna scelerisque sed. Morbi quis metus blandit, vestibulum ligula gravida,
-    laoreet enim. Donec nulla leo, fringilla eget magna vitae, imperdiet suscipit justo. Quisque lectus risus, luctus ut
-    justo malesuada, mollis sodales nibh. Suspendisse volutpat neque risus, et ultricies dui lobortis et. Aenean quam
-    odio, pharetra sit amet sagittis vitae, convallis auctor ante. Duis ut libero sed dolor fermentum condimentum.
-    Aenean eu mollis ligula. Etiam at sem at elit scelerisque dapibus a a urna. Cum sociis natoque penatibus et magnis
-    dis parturient montes, nascetur ridiculus mus. Nam tempor rutrum nisi, id venenatis justo dignissim id. Mauris
-    euismod, purus non faucibus aliquet, velit libero volutpat mauris, at vestibulum eros ipsum nec nisi. Curabitur urna
-    libero, pharetra eget commodo eu, condimentum sit amet est. Aenean venenatis mi mi, et lobortis nunc molestie sit
-    amet.
-  </div>
-</div>
+  <!--<div class="row">-->
+    <!--<div class="col-lg-6">-->
+      <!--<h1>Hi there</h1>-->
 
-<div class="row">
-  <div class="col-lg-6">
-    <h1>Hi there</h1>
+      <!--<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam asperiores, debitis doloremque ea error-->
+        <!--eveniet, id laudantium minima nemo nesciunt nihil nulla optio perspiciatis quaerat quasi sint sit sunt-->
+        <!--tempora!h</p>-->
 
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam asperiores, debitis doloremque ea error
-      eveniet, id laudantium minima nemo nesciunt nihil nulla optio perspiciatis quaerat quasi sint sit sunt
-      tempora!h</p>
+      <!--<p>Cumque possimus quo repellendus suscipit tenetur? Ab aspernatur at blanditiis deleniti dicta est expedita-->
+        <!--impedit-->
+        <!--in inventore iste laboriosam laborum magni modi, nihil officia similique vero vitae? Laudantium, maxime,-->
+        <!--omnis.h</p>-->
 
-    <p>Cumque possimus quo repellendus suscipit tenetur? Ab aspernatur at blanditiis deleniti dicta est expedita impedit
-      in inventore iste laboriosam laborum magni modi, nihil officia similique vero vitae? Laudantium, maxime,
-      omnis.h</p>
+      <!--<p>Cumque cupiditate expedita fuga inventore nemo quam quidem voluptates. Architecto atque cumque debitis eligendi-->
+        <!--explicabo fugit, incidunt labore laudantium, molestias, necessitatibus nemo nesciunt nulla odio omnis quam rem-->
+        <!--repellendus tempora.h</p>-->
 
-    <p>Cumque cupiditate expedita fuga inventore nemo quam quidem voluptates. Architecto atque cumque debitis eligendi
-      explicabo fugit, incidunt labore laudantium, molestias, necessitatibus nemo nesciunt nulla odio omnis quam rem
-      repellendus tempora.h</p>
+      <!--<p>Delectus eos esse illo laboriosam necessitatibus omnis placeat reprehenderit, sunt. Asperiores, consequatur-->
+        <!--delectus doloremque fugiat harum, ipsa nam natus nemo nisi non numquam omnis quasi quia quod, repellat similique-->
+        <!--sunt.h</p>-->
 
-    <p>Delectus eos esse illo laboriosam necessitatibus omnis placeat reprehenderit, sunt. Asperiores, consequatur
-      delectus doloremque fugiat harum, ipsa nam natus nemo nisi non numquam omnis quasi quia quod, repellat similique
-      sunt.h</p>
+      <!--<p>Dicta et maxime odit officiis possimus rem saepe sapiente ut velit voluptatibus. Aliquam animi beatae-->
+        <!--consectetur-->
+        <!--dolor dolore eaque fuga labore maiores numquam quidem quo ratione recusandae, reprehenderit repudiandae-->
+        <!--tenetur.h</p>-->
+    <!--</div>-->
+    <!--<div class="col-lg-6">-->
+      <!--<h1>Hi there</h1>-->
 
-    <p>Dicta et maxime odit officiis possimus rem saepe sapiente ut velit voluptatibus. Aliquam animi beatae consectetur
-      dolor dolore eaque fuga labore maiores numquam quidem quo ratione recusandae, reprehenderit repudiandae
-      tenetur.h</p>
-  </div>
-  <div class="col-lg-6">
-    <h1>Hi there</h1>
-  </div>
-</div>
+      <!--<p>other side</p>-->
+    <!--</div>-->
+  <!--</div>-->
+<!--</div>-->
+<script>
+    var s = skrollr.init();
+</script>
 
 
